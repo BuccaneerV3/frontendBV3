@@ -1,0 +1,49 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 65654px;
+  background: rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(25px) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 65654px;
+  background-color: #f39718 !important;
+}
+
+/* Selection */
+::selection {
+  color: #fff !important;
+  background: rgba(243, 151, 24, 0.6) !important;
+}
+
+/* Link hover glow */
+.link-hover-glow {
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: color 0.3s ease, text-shadow 0.3s ease !important;
+}
+
+.link-hover-glow:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8) !important;
+}
+
+
+
+
+/* Specific style for the User Guide button */
+.user-guide-button {
+  background-color: #1F2147 !important;
+  color: #fff !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2) !important;
+  padding: 10px 24px !important;
+  border-radius: 12px !important; /* Rounded edges */
+  transition: background-color 0.3s ease !important;
+}
+
+.user-guide-button:hover {
+  background-color: #16172F !important;
+}

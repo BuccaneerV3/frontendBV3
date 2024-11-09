@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"pages/_app.tsx -> @web3-react/core\":{\"id\":\"pages/_app.tsx -> @web3-react/core\",\"files\":[]}}"
